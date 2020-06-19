@@ -16,7 +16,7 @@ def register(hook, order= 0):
                  value = func(value, *args)
         return value
 
-    
+
 
 
     return register_callback
