@@ -1,6 +1,6 @@
 import shutil
 import sys
-from ssg import hooks
+
 
 from typing import List
 from pathlib import Path
@@ -8,7 +8,7 @@ from pathlib import Path
 from docutils.core import publish_parts
 from markdown import markdown
 from ssg.content import Content
-
+from ssg import hooks
 
 class Parser:
     base_ext = ".html"
